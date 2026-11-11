@@ -1,6 +1,6 @@
 # Cox and DeepSurv survival models with three feature-selection strategies
 
-Python scripts that fit Cox proportional hazards and DeepSurv (PyTorch) models to time-to-event data, compare three feature-selection strategies, and evaluate the models with cross-validated concordance index and integrated Brier score (with bootstrap confidence intervals) and SHAP values. Two analysis notebooks then summarise and plot the results.
+Python scripts that fit Cox proportional hazards and DeepSurv (PyTorch) models to time-to-event data, compare three feature-selection strategies, and evaluate the models with cross-validated concordance index (overall, 1-year and 5-year) and integrated Brier score, with Nadeau-Bengio corrected 95% confidence intervals across folds, and SHAP values. Two analysis notebooks then summarise and plot the results.
 
 ## Contents
 
